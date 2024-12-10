@@ -99,8 +99,11 @@ GET /api/products/analytics/?category=electronics&min_price=10&max_price=100
 ```
 #### Example Response:
 ```json
-![image](https://github.com/user-attachments/assets/ae6793a9-3ff8-4dae-984d-ddd9ab3903b8)
-
+{
+  "total_products": 3558,
+  "average_price": 54.5639347948286,
+  "total_stock_value": 96349295.3
+}
 ```
 
 ---
