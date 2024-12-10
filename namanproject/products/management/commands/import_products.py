@@ -10,7 +10,7 @@ class Command(BaseCommand):
         parser.add_argument('file_path', type=str, help='The path to the CSV file to import')
 
     def handle(self, *args, **kwargs):
-        file_path = "C:\\Users\\Anuj Parashar\\namanproject\\large_dataset.csv"
+        file_path = "Please provide File of CSV Path here"
         try:
             with open(file_path, mode='r') as file:
                 reader = csv.DictReader(file)
